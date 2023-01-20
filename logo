@@ -1,5 +1,4 @@
 #!/bin/bash
-echo -e "\033[0;31m"
 echo " KKKKKKKKK    KKKKKKK                 KKKKKKKKK    KKKKKKK                    SSSSSSSSSSSSSSS "
 echo " K:::::::K    K:::::K                 K:::::::K    K:::::K                  SS:::::::::::::::S"
 echo " K:::::::K    K:::::K                 K:::::::K    K:::::K                 S:::::SSSSSS::::::S"
@@ -16,4 +15,3 @@ echo " K:::::::K   K::::::Ko:::::ooooo:::::oK:::::::K   K::::::Ko:::::ooooo:::::
 echo " K:::::::K    K:::::Ko:::::::::::::::oK:::::::K    K:::::Ko:::::::::::::::oS::::::SSSSSS:::::S"
 echo " K:::::::K    K:::::K oo:::::::::::oo K:::::::K    K:::::K oo:::::::::::oo S:::::::::::::::SS "
 echo " KKKKKKKKK    KKKKKKK   ooooooooooo   KKKKKKKKK    KKKKKKK   ooooooooooo    SSSSSSSSSSSSSSS   "
-echo -e "\e[0m"
