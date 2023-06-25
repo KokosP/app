@@ -1,0 +1,18 @@
+#!/bin/bash
+
+forta version
+systemctl stop forta
+cd $HOME
+mkdir tmp
+cd /lib/systemd/system/
+cp forta.service ~/tmp
+apt-get update
+apt-get upgrade forta --yes
+cd ~/tmp
+cp forta.service /lib/systemd/system/forta.service
+systemctl restart docker
+systemctl daemon-reload
+systemctl restart forta
+man sleep
+sleep 10s
+forta version
