@@ -13,6 +13,4 @@ cp forta.service /lib/systemd/system/forta.service
 systemctl restart docker
 systemctl daemon-reload
 systemctl restart forta
-man sleep
-sleep 10s
 forta version
