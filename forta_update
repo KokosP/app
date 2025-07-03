@@ -1,6 +1,5 @@
 #!/bin/bash
 
-forta version
 systemctl stop forta
 cd $HOME
 mkdir tmp
