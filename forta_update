@@ -1,5 +1,4 @@
 #!/bin/bash
-
 systemctl stop forta
 cd $HOME
 mkdir tmp
